@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9234a9-5c1d-4ba4-9658-6bde65570beb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" afterPath="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" />
     </list>
     <ignored path="hanjie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +39,17 @@
       <file leaf-file-name="Box.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Box.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,14 +58,18 @@
       <file leaf-file-name="Picture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="1002">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#1821#1822#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +78,8 @@
       <file leaf-file-name="Grid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -126,9 +136,9 @@
       <list>
         <option value="/usr/java/jdk1.8.0_60/jre/lib/ext/cldrdata.jar!/sun/util/resources/cldr/aa/CalendarData_aa_ER.class" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/BoxState.java" />
-        <option value="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" />
+        <option value="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" />
       </list>
@@ -530,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468523015433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed Grid into Picture, added logic in Picture">
+      <created>1468534969198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1468534969198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -578,7 +595,8 @@
     <MESSAGE value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes&#10;" />
     <MESSAGE value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes, added a getter for GridReader input stream&#10;&#10;" />
     <MESSAGE value="Added logic inside GridParser class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logic inside GridParser class" />
+    <MESSAGE value="Changed Grid into Picture, added logic in Picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Grid into Picture, added logic in Picture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -604,8 +622,14 @@
         <state relative-caret-position="360">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -616,10 +640,14 @@
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,33 +738,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="1002">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/hanjie/logic/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>

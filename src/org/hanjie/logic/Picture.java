@@ -16,7 +16,7 @@ public class Picture {
     private int width = 0;
     private int columns[][] = new int[width][width/2 + 1];
 
-    public Picture(String fileAddress) throws IOException {
+    protected Picture(String fileAddress) throws IOException {
         GridParser gridParser = new GridParser(fileAddress);
         this.name = gridParser.getTitle();
         this.height = gridParser.getHeight();
@@ -45,11 +45,19 @@ public class Picture {
         }
     }
 
-    public int[][] getRows() {
+    protected int[][] getRows() {
         return this.rows;
     }
 
-    public int[][] getColumns() {
+    protected int[][] getColumns() {
         return this.columns;
+    }
+
+    protected int getHeight() {
+        return this.height;
+    }
+
+    protected int getWidth() {
+        return this.width;
     }
 }

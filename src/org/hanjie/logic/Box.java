@@ -8,6 +8,8 @@ public class Box {
     protected enum BoxState {EMPTY, TICKED, CHECKED;}
     private BoxState state = BoxState.EMPTY;
 
+    protected Box() {}
+
     protected BoxState boxState() {
         return this.state;
     }
