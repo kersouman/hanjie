@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b9234a9-5c1d-4ba4-9658-6bde65570beb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Picture.java" />
     </list>
     <ignored path="hanjie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -547,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468534969198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added getters in Picture, started Grid class logic">
+      <created>1468535805302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1468535805302</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -596,7 +600,8 @@
     <MESSAGE value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes, added a getter for GridReader input stream&#10;&#10;" />
     <MESSAGE value="Added logic inside GridParser class" />
     <MESSAGE value="Changed Grid into Picture, added logic in Picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Grid into Picture, added logic in Picture" />
+    <MESSAGE value="Added getters in Picture, started Grid class logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getters in Picture, started Grid class logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
