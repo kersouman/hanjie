@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9234a9-5c1d-4ba4-9658-6bde65570beb" name="Default" comment="Deleted useless statement in GridReader, added arrays to manage blocks of boxes&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" />
+    <list default="true" id="3b9234a9-5c1d-4ba4-9658-6bde65570beb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" afterPath="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" afterPath="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" afterPath="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" />
     </list>
     <ignored path="hanjie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GridReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="552">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#682#683#0" expanded="true" />
@@ -75,12 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridParser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GridParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="396">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,10 +110,17 @@
         <option value="/usr/java/jdk1.8.0_60/jre/lib/ext/cldrdata.jar!/sun/util/resources/cldr/aa/CalendarData_aa_ER.class" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/BoxState.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/Box.java" />
-        <option value="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/logic/Grid.java" />
         <option value="$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java" />
+        <option value="$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -490,6 +498,14 @@
       <option name="presentableId" value="Default" />
       <updated>1468441306421</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deleted useless statement in GridReader, added arrays to manage blocks of boxes, added a getter for GridReader input stream&#10;&#10;">
+      <created>1468512936102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468512936102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,7 +517,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -535,7 +551,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes&#10;" />
+    <MESSAGE value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes, added a getter for GridReader input stream&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted useless statement in GridReader, added arrays to manage blocks of boxes, added a getter for GridReader input stream&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,24 +670,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/hanjie/inout/GridReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="552">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
             <element signature="e#1501#1502#0" expanded="true" />
             <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/hanjie/inout/GridParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
