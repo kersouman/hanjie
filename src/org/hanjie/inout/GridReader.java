@@ -30,7 +30,6 @@ public class GridReader {
     private static void changeStream(String fileAddress) throws IOException {
         closeStream();
         GRID_READER_STREAM = new FileInputStream(fileAddress);
-        releaseAddress();
         GRID_READER_ADDRESS = fileAddress;
     }
 
@@ -47,5 +46,9 @@ public class GridReader {
             changeStream(fileAddress);
         }
         return GRID_READER_INSTANCE;
+    }
+
+    protected static FileInputStream getGridReaderStream() {
+        return GRID_READER_STREAM;
     }
 }
