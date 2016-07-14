@@ -1,7 +1,5 @@
 package org.hanjie.inout;
 
-import org.hanjie.logic.Grid;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 
